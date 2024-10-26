@@ -1,0 +1,91 @@
+/* Portfolio.css */
+
+.portfolio-container {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit the width for better readability */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.portfolio-container:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio-item {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: space-between; /* Space between item details */
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background for items */
+    margin-bottom: 10px; /* Space between items */
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item:hover {
+    background-color: #e6f7ff; /* Change background on hover */
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+.investment-details {
+    display: flex;
+    flex-direction: column; /* Stack the details vertically */
+    flex: 1; /* Take available space */
+    margin-right: 20px; /* Space between details and value */
+}
+
+.investment-details h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.investment-details p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Current value and growth styling */
+.current-value {
+    font-size: 18px;
+    color: #28a745; /* Green for positive value */
+    font-weight: bold;
+}
+
+.growth {
+    font-size: 16px;
+    color: #dc3545; /* Red for growth */
+    font-weight: 500; /* Medium weight for contrast */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .portfolio-container {
+        padding: 15px;
+    }
+
+    .investment-details h4 {
+        font-size: 18px;
+    }
+
+    .portfolio-item {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: flex-start; /* Align to start */
+    }
+
+    .portfolio-item p {
+        font-size: 14px;
+    }
+}
