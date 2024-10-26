@@ -1,74 +1,42 @@
-# Getting Started with Create React App
+Problem statements:
+What’s your problem statement?
+Investments
+• There's a million sources of financial advice and investment recommendations on the internet. Can people have their own personalized Al-powered one?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The problem RiseCapital solves
+RiseCapital empowers users to:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Make Informed Investment Decisions: The app provides tailored investment recommendations, helping users diversify and optimize their portfolios.
+Stay Updated on Market Trends: Real-time data on key stocks allows users to monitor performance, making it easier to decide on buying, holding, or selling assets.
+Learn Financial Basics: Daily tips on financial literacy make complex financial concepts approachable, promoting smart investing and saving habits.
+Manage Their Portfolios: Users can view their portfolio performance, track growth, and identify trends in their investments, making portfolio management more accessible and manageable for novice investors.
 
 
-APP Preview:
+Challenges We Ran Into:
+
+One major challenge was integrating live market data efficiently while ensuring fast load times and a smooth user experience. We overcame this by using a blend of simulated data and real-time API calls, optimizing loading sequences to deliver essential information without performance bottlenecks.APP Preview:
 https://devfolio.co/projects/risecapital-a9e5
+
+app demo:
+https://www.loom.com/share/a2b193fe749c4d628689af9b90c87445?sid=758df1b2-0f3f-4b90-b46c-7aca1e2c9f4e
+figma: 
+https://www.figma.com/design/WfbdDlv8pt79InZuHyQ3eo/Untitled?node-id=0-1&t=UikNAJ7SFHq9ehLh-1
+Pitch deck:
+https://docs.google.com/presentation/d/1HZ-dJPzq7-A6qpNRTQH45xigx4NIkrsunCFOx3um96E/edit?usp=sharing
+App :
+<img width="1470" alt="Screenshot 2024-10-26 at 12 41 05 PM" src="https://github.com/user-attachments/assets/b2d287ea-1784-4f89-84df-4ab3fa8a607e">
+<img width="1470" alt="Screenshot 2024-10-26 at 12 41 37 PM" src="https://github.com/user-attachments/assets/2f80c461-f570-4a04-9cfa-6b463af2048c">
+<img width="1469" alt="Screenshot 2024-10-26 at 12 41 49 PM" src="https://github.com/user-attachments/assets/ac37b3ce-eaef-4cad-aea5-5d6bca710fcd">
+<img width="1470" alt="Screenshot 2024-10-26 at 12 41 59 PM" src="https://github.com/user-attachments/assets/f640fd9d-ae19-48c2-b793-b15f253a2668">
+<img width="1470" alt="Screenshot 2024-10-26 at 12 42 10 PM" src="https://github.com/user-attachments/assets/b50864c0-0de3-44f8-a5cc-80e4e70c838d">
+
+logo:
+![logo](https://github.com/user-attachments/assets/d659bb51-382e-452e-b8c1-1a462d644515)
+
+
+
+
+
+
+
+
